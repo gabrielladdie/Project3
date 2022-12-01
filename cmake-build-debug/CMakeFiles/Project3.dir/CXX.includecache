@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gabri/Documents/COP3530/Project3/covid.cpp
+covid.h
+C:/Users/gabri/Documents/COP3530/Project3/covid.h
+fstream
+-
+iostream
+-
+iomanip
+-
+
+C:/Users/gabri/Documents/COP3530/Project3/covid.h
+string
+-
+vector
+-
+map
+-
+
