@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/gabri/Documents/COP3530/Project3/State.h
+string
+-
+
+C:/Users/gabri/Documents/COP3530/Project3/Year.h
+
 C:/Users/gabri/Documents/COP3530/Project3/covid.cpp
 covid.h
 C:/Users/gabri/Documents/COP3530/Project3/covid.h
@@ -23,4 +29,18 @@ vector
 -
 map
 -
+
+C:/Users/gabri/Documents/COP3530/Project3/main.cpp
+iostream
+-
+fstream
+-
+map
+-
+State.h
+C:/Users/gabri/Documents/COP3530/Project3/State.h
+Year.h
+C:/Users/gabri/Documents/COP3530/Project3/Year.h
+covid.h
+C:/Users/gabri/Documents/COP3530/Project3/covid.h
 

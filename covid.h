@@ -13,12 +13,26 @@ public:
     Covid(const string& row);
 
     static void print();
-    string getAG();
-    string getCondition();
     int getCovidDeaths();
+    string getDataAsOf();
+    string getStartDate();
+    string getEndDate();
+    string getGroup();
+    string getYear();
+    string getMonth();
+    string getState();
+    string getConditionGroup();
+    string getCondition();
+    string getIcd10_codes();
+    string getAgeGroup();
+    string getNumberofMentions();
+    string getFlag();
+    void printRow();
     static void addCondition(Covid& covid);
     static void addStateData(Covid& covid);
     static void  addYearData(Covid& covid);
+    static void  printState(const string& input2);
+    static void  printYear(int input2);
 private:
     string dataAsOf;
     string startDate;
@@ -39,6 +53,7 @@ private:
     static map<string, vector<Covid*> > stateData;
     static map<string, vector<Covid*> > yearData;
     static map<string, map<string, int> > conditionAGM; //condition age group map
+    static map<string, string> states;
 };
 
 #endif

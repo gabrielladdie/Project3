@@ -1,7 +1,10 @@
 #pragma once
+#include <string>
 class State
 {
 public:
+
+    State(std::string input2);
     void AL();
     void AK();
     void AZ();

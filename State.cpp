@@ -762,3 +762,108 @@ void State::WY()
         cout << it->first << "\t\t" << it->second << endl;
     }
 }
+
+State::State(string input2) {
+    if (input2 == "-1")
+        return;
+    if (input2 == "AL")
+        AL();
+    if (input2 == "AK")
+        AK();
+    if (input2 == "AZ")
+        AZ();
+    if (input2 == "AR")
+        AR();
+    if (input2 == "CA")
+        CA();
+    if (input2 == "CO")
+        CO();
+    if (input2 == "CT")
+        CT();
+    if (input2 == "DE")
+        DE();
+    if (input2 == "FL")
+        FL();
+    if (input2 == "GA")
+        GA();
+    if (input2 == "HI")
+        HI();
+    if (input2 == "ID")
+        ID();
+    if (input2 == "IL")
+        IL();
+    if (input2 == "IN")
+        IN();
+    if (input2 == "IA")
+        IA();
+    if (input2 == "KA")
+        KA();
+    if (input2 == "KY")
+        KY();
+    if (input2 == "LA")
+        LA();
+    if (input2 == "ME")
+        ME();
+    if (input2 == "MD")
+        MD();
+    if (input2 == "MA")
+        MA();
+    if (input2 == "MI")
+        MI();
+    if (input2 == "MN")
+        MN();
+    if (input2 == "MS")
+        MS();
+    if (input2 == "MO")
+        MO();
+    if (input2 == "MT")
+        MT();
+    if (input2 == "NE")
+        NE();
+    if (input2 == "NV")
+        NV();
+    if (input2 == "NH")
+        NH();
+    if (input2 == "NJ")
+        NJ();
+    if (input2 == "NM")
+        NM();
+    if (input2 == "NY")
+        NY();
+    if (input2 == "NC")
+        NC();
+    if (input2 == "ND")
+        ND();
+    if (input2 == "OH")
+        OH();
+    if (input2 == "OK")
+        OK();
+    if (input2 == "OR")
+        OR();
+    if (input2 == "PA")
+        PA();
+    if (input2 == "RI")
+        RI();
+    if (input2 == "SC")
+        SC();
+    if (input2 == "SD")
+        SD();
+    if (input2 == "TN")
+        TN();
+    if (input2 == "TX")
+        TX();
+    if (input2 == "UT")
+        UT();
+    if (input2 == "VT")
+        VT();
+    if (input2 == "VA")
+        VA();
+    if (input2 == "WA")
+        WA();
+    if (input2 == "WV")
+        WV();
+    if (input2 == "WI")
+        WI();
+    if (input2 == "WY")
+        WY();
+}
